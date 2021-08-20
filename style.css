@@ -9,9 +9,17 @@ body {
     padding-top: 100px;
 }
 
+.container a {
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
 h2 {
     text-transform: uppercase;
-    text-decoration: none;
     color: #C9D1D9;
-    outline: none;
+}
+
+h2:hover {
+    color: darkcyan;
 }
